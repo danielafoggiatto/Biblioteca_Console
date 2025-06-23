@@ -10,14 +10,12 @@ public class CadastroLivro
         string titulo = Console.ReadLine();
         if (Livros.BuscarLivroPorNome(titulo) != null)
         {
-            Console.WriteLine("Livro j· cadastrado.");
+            Console.WriteLine("Livro j√° cadastrado.");
             return;
         }
 
-
         Console.Write("Autor: ");
         string autor = Console.ReadLine();
-
 
         int ano = Program.LerInteiro("Ano: ");
 
