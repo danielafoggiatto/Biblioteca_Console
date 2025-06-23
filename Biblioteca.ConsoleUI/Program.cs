@@ -43,10 +43,7 @@ namespace Biblioteca_Console
                         Console.WriteLine("Opção inválida, tente novamente.");
                         break;
                 }
-
-
             }
-
         }
 
         public static int LerInteiro(string mensagem)
@@ -74,7 +71,6 @@ namespace Biblioteca_Console
 
             while (emMenu)
             {
-
                 Console.WriteLine("=== Livros ===");
                 Console.WriteLine("1. Cadastrar");
                 Console.WriteLine("2. Editar");
@@ -112,7 +108,6 @@ namespace Biblioteca_Console
                         {
                             Console.WriteLine("Livro não encontrado.");
                         }
-
                         break;
 
                     case 3:
@@ -138,7 +133,6 @@ namespace Biblioteca_Console
                         {
                             Console.WriteLine("Exclusão cancelada.");
                         }
-
                          break;
 
                     case 4:
@@ -166,7 +160,6 @@ namespace Biblioteca_Console
                     case 6:
                         emMenu = false;
                         break;
-
                 }
             }
         }
@@ -324,8 +317,6 @@ namespace Biblioteca_Console
                 case 8:
                     return;
             }
-
         }
-
     }
 }
