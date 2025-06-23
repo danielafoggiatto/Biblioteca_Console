@@ -10,5 +10,4 @@ public class Administrador : Usuario
     {
         Console.WriteLine("Administrador acessou o painel de controle.");
     }
-
 }
