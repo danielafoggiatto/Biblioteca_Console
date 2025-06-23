@@ -18,12 +18,10 @@ public class CadastroLeitor
             return;
         }
 
-
         var leitor = new Leitor(nome, tipo, matricula);
         Leitor.ListaLeitores.Add(leitor);
 
         Leitor.SalvarEmArquivo(); 
         Console.WriteLine("Leitor cadastrado com sucesso!");
     }
-
 }
